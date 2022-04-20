@@ -12,13 +12,22 @@
   </head>
   <body>
     <div id="root"></div>
-    <script>
-    function maincontent() {
-        return (
-            <h1>hello ji!</h1>
-        )
-    }
-      ReactDOM.render(<div><maincontent /></div>,document.getElementById("root"));
+    <script type="text/babel">
+      function Navbar() {
+        return <h1>new file added</h1>;
+      }
+
+      function MainContent() {
+        return <h1>I am learning React!</h1>;
+      }
+
+      ReactDOM.render(
+        <div>
+          <Navbar />
+          <MainContent />
+        </div>,
+        document.getElementById("root")
+      );
     </script>
   </body>
 </html>
