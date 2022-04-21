@@ -13,8 +13,9 @@
   <body>
     <div id="root"></div>
     <script type="text/babel">
-      const page = (
-        <div>
+      function  TemporaryName(){ // pascal case
+        return (
+          <div>
           <img src="media/logo.jpg" width="130px" />
           <h1>Fun Facts about React </h1>
           <ul>
@@ -37,8 +38,9 @@
             </li>
           </ul>
         </div>
-      );
-      ReactDOM.render(page, document.getElementById("root"));
+        )
+      }
+      ReactDOM.render(  <TemporaryName/>, document.getElementById("root"));
     </script>
   </body>
 </html>
