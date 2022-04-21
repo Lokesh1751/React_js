@@ -1,0 +1,30 @@
+.divv{
+    width: 400px;
+    height: 352px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: beige;
+}
+.nav-items{
+    list-style: none;
+     display: flex;
+     justify-content: space-between;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-items >li{
+    padding: 10px;
+}
+.nav-logo{
+    width: 120px;
+}
+.footer{
+    background-color: grey;
+    color: white;
+    border-radius: 8px;
+    width: 400px;
+}

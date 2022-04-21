@@ -1,5 +1,6 @@
 <html>
   <head>
+    <link rel="stylesheet" href="project1style.css">
     <script
       crossorigin
       src="https://unpkg.com/react@18/umd/react.development.js"
@@ -14,9 +15,18 @@
     <div id="root"></div>
     <script type="text/babel">
       function  TemporaryName(){ // pascal case
+        // use styling in React
         return (
-          <div>
-          <img src="media/logo.jpg" width="130px" />
+          <div className="divv">
+            <nav className="nav">
+          <img src="media/logo.jpg"  className="nav-logo" />
+          <ul className="nav-items">
+            <li> Pricing </li>
+            <li> About </li>
+            <li> Contact </li>
+            </ul>
+          </nav>
+          <hr/>
           <h1>Fun Facts about React </h1>
           <ul>
             <li>
@@ -37,6 +47,9 @@
               <b>Powers thousands of enterprise apps,including mobile apps </b>
             </li>
           </ul>
+          <footer className="footer">
+             <small>  @ 2022 Ziroll development. All rights reserved </small>
+            </footer>
         </div>
         )
       }
