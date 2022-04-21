@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      function Challenge() {
+        return (
+          <header>
+            <nav>
+              <img src="media/logo.jpg" width="130px" />
+            </nav>
+            <h1> Using React </h1>
+            <ol>
+              <li>was first released in 2013</li>
+              <li> is maintained by facebook</li>
+            </ol>
+            <footer>
+              <p> React. All rights reserved</p>
+            </footer>
+          </header>
+        );
+      }
+      ReactDOM.render(<Challenge />, document.getElementById("root"));
+    </script>
+  </body>
+</html>
