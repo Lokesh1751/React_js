@@ -1,12 +1,12 @@
-
 function Main(){
+
     return(
-        <h1> hello</h1>
+        <h1>Main Component</h1>
     )
 }
-function Nav(){
+function Nav(){ 
     return(
-        <h1> hello</h1>
+        <h1> Nav Component</h1>
     )
 }
  function App(){
