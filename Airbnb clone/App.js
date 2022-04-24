@@ -16,12 +16,39 @@
      </section>
      )
  }
+ function Card(){
+     return(
+         <div className="card">
+             <img src="airmedia/girl.png"  className="img"/> 
+             <div>
+             
+             <img src="airmedia/Star.png"  className=""/>
+
+             </div>
+             <img src="airmedia/wedding-photography.png"  className="img"/> <br/>
+             <div>
+            
+             <img src="airmedia/Star.png"  className=""/>
+
+             </div>
+             <img src="airmedia/mountain-bike.png"  className="img1"/> <br/>
+             <div>
+
+             <img src="airmedia/Star.png"  className=""/>
+
+             </div>
+
+         </div>
+
+     )
+ }
  
  function App(){
     return(
         <div className="divmain">
             <Nav/>
             <Hero/>
+            <Card/>
         </div>
         
     )
