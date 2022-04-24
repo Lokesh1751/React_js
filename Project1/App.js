@@ -25,8 +25,8 @@ function Nav() {
 function App() {
   return (
     <div>
-      <Nav />
-      <Main />
+      <Nav/>
+      <Main/>
     </div>
   );
 }
