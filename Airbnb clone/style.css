@@ -24,8 +24,9 @@ section{
 }
 .hero--photo{
     max-width: 710;
-    width: 700px;
-    height: auto;
+    width: 1400px;
+    height: 400px;
+    margin-left: 350px;
 
 }
 .hero--para{
