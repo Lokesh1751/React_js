@@ -19,25 +19,34 @@
  function Card(){
      return(
          <div className="card">
-             <img src="airmedia/girl.png"  className="img"/> 
-             <div>
-             
-             <img src="airmedia/Star.png"  className=""/>
-
+             {/* <img src="airmedia/girl.png" className="card--image"/> */}
+             <div className="card-stats">
+             <img src="airmedia/girl.png" className="card--image"/>
+                 <img src="airmedia/star.png" className="card--star"/>
+                 <span>5.0</span>
+                 <span className="gray">(6)  . </span>
+                 <span className="gray">USA</span>
+                 <p>Life lessons with katie zafers</p>
+             <p><span className="bold">from $136</span>/person</p>
              </div>
-             <img src="airmedia/wedding-photography.png"  className="img"/> <br/>
-             <div>
-            
-             <img src="airmedia/Star.png"  className=""/>
-
+             <div className="card-stats">
+             <img src="airmedia/wedding-photography.png" className="card--image"/>
+                 <img src="airmedia/star.png" className="card--star"/>
+                 <span>5.0</span>
+                 <span className="gray">(6)  . </span>
+                 <span className="gray">USA</span>
+                 <p>Life lessons with katie zafers</p>
+             <p><span className="bold">from $136</span>/person</p>
              </div>
-             <img src="airmedia/mountain-bike.png"  className="img1"/> <br/>
-             <div>
-
-             <img src="airmedia/Star.png"  className=""/>
-
+             <div className="card-stats">
+             <img src="airmedia/mountain-bike.png" className="card--image1"/>
+                 <img src="airmedia/star.png" className="card--star"/>
+                 <span>5.0</span>
+                 <span className="gray">(6)  . </span>
+                 <span className="gray">USA</span>
+                 <p>Life lessons with katie zafers</p>
+             <p><span className="bold">from $136</span>/person</p>
              </div>
-
          </div>
 
      )

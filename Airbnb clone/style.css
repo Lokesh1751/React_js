@@ -24,10 +24,9 @@ section{
 }
 .hero--photo{
     max-width: 710;
-    width: 14
-    00px;
+    width: 1400px;
     height: 400px;
-    margin-left: 350px;
+ 
 
 }
 .hero--para{
@@ -38,14 +37,43 @@ section{
     margin-bottom: 16px;
 }
 .card{
+    width: 175px;
+    font-size: 12px;
+}
+.card--image{
+    width:200px;
+    border-radius: 9px;
+
+
+}
+.card-stats{
+    margin: 30px;
+}
+.card--star{
+    height: 14px;
+
+}
+.gray{
+    color:#918E9B;
+}
+.card{
+    margin-left: 20px;
     display: flex;
-    margin: 10px;
-    justify-content: space-between;
 }
-.img{
-    width: 200px;
-    height: auto;
+.bold{
+    font-weight: bold;
 }
-.img1{
-    width: 140px;
+.card--image1{
+    width:141px;
+    border-radius: 9px;
+
+
+}
+.divmain{
+    border: 1px solid gray;
+    width: 800px;
+    border-radius: 9px;
+    margin-left: 330px;
+    margin-top: 20px;
+
 }
