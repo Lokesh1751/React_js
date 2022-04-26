@@ -30,7 +30,7 @@
              <p><span className="bold">from $136</span>/person</p>
              </div>
              <div className="card-stats">
-             <img src="airmedia/wedding-photography.png" className="card--image"/>
+             <img src="airmedia/wedding-photography.png" className="card--image"/> 
                  <img src="airmedia/star.png" className="card--star"/>
                  <span>5.0</span>
                  <span className="gray">(6)  . </span>
