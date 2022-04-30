@@ -16,37 +16,21 @@
      </section>
      )
  }
- function Card(){
+ function Card(props){
      return(
+         <div className="mainblock">
          <div className="card">
              {/* <img src="airmedia/girl.png" className="card--image"/> */}
              <div className="card-stats">
-             <img src="airmedia/girl.png" className="card--image"/>
-                 <img src="airmedia/star.png" className="card--star"/>
-                 <span>5.0</span>
-                 <span className="gray">(6)  . </span>
-                 <span className="gray">USA</span>
-                 <p>Life lessons with katie zafers</p>
-             <p><span className="bold">from $136</span>/person</p>
+             <img src={props.img} className="card--image"/>
+                 <img src={props.star} className="card--star"/>
+                 <span>{props.points}</span>
+                 <span className="gray">{props.number} </span>
+                 <span className="gray">{props.country}</span>
+                 <p>{props.line}</p>
+             <p><span className="bold">{props.dollar}</span>/person</p>
              </div>
-             <div className="card-stats">
-             <img src="airmedia/wedding-photography.png" className="card--image"/> 
-                 <img src="airmedia/star.png" className="card--star"/>
-                 <span>5.0</span>
-                 <span className="gray">(6)  . </span>
-                 <span className="gray">USA</span>
-                 <p>Life lessons with katie zafers</p>
-             <p><span className="bold">from $136</span>/person</p>
-             </div>
-             <div className="card-stats">
-             <img src="airmedia/mountain-bike.png" className="card--image1"/>
-                 <img src="airmedia/star.png" className="card--star"/>
-                 <span>5.0</span>
-                 <span className="gray">(6)  . </span>
-                 <span className="gray">USA</span>
-                 <p>Life lessons with katie zafers</p>
-             <p><span className="bold">from $136</span>/person</p>
-             </div>
+         </div>
          </div>
 
      )
@@ -57,7 +41,10 @@
         <div className="divmain">
             <Nav/>
             <Hero/>
-            <Card/>
+            <Card img="airmedia/girl.png" star="airmedia/star.png" points="5.0" number="(6)" country="USA" line="Life lessons with katie zafers" dollar="from $136"/>
+            <Card img="airmedia/wedding-photography.png" star="airmedia/star.png" points="5.0" number="(6)" country="USA" line="Life lessons with katie zafers" dollar="from $136"/>
+            <Card img="airmedia/mountain-bike.png" star="airmedia/star.png" points="5.0" number="(6)" country="USA" line="Life lessons with katie zafers" dollar="from $136"/>
+
         </div>
         
     )
