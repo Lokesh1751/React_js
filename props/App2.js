@@ -4,7 +4,7 @@ function Little(props) {
     <div className="contact-card">
       <img src={props.img} width="200px" />
       <div>
-      <h3 className="namee">{props.name}</h3>
+         <h3 className="namee" style={{display:props.name ? "block" : "none"}}>Name:{props.name}</h3>
       </div>
       <p>{props.phn}</p>
       <p>{props.email}</p>
